@@ -1,0 +1,254 @@
+﻿<%@ Master Language="VB" CodeFile="anasayfa.master.vb" Inherits="anasayfa" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function Image6_onclick() {
+
+}
+
+function Image2_onclick() {
+
+}
+
+//-->
+</script>
+<style type="text/css">
+
+body {
+	background-image: url(arkaplan.png);
+	line-height: normal;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-position: center top;
+}
+    .style1
+    {
+        height: 96px;
+    }
+    .style2
+    {
+        height: 305px;
+    }
+    .style4
+    {
+        height: 305px;
+        width: 55px;
+    }
+    .style6
+    {
+        width: 454px;
+    }
+    .style7
+    {
+        height: 305px;
+        width: 454px;
+    }
+    .style8
+    {
+        height: 96px;
+        width: 454px;
+    }
+    .style9
+    {
+    }
+    .style15
+    {
+        width: 143px;
+    }
+    .style16
+    {
+        height: 96px;
+        width: 143px;
+    }
+    .style17
+    {
+        width: 66px;
+    }
+    .style18
+    {
+        height: 96px;
+        width: 66px;
+    }
+    .style19
+    {
+        width: 60px;
+    }
+    .style20
+    {
+        height: 96px;
+        width: 60px;
+    }
+    .style25
+    {
+        width: 55px;
+    }
+    .style26
+    {
+        height: 96px;
+        width: 55px;
+    }
+    .style27
+    {
+        width: 268435616px;
+    }
+    #Image2
+    {
+        height: 35px;
+    }
+-->
+</style>
+</head>
+
+<body onload="MM_preloadImages('butonlar/anasayfa2.png','butonlar/kitapara2.png','butonlar/kitap2.png','butonlar/giris2.png')">
+<table width="982" height="521" border="0" align="center">
+  <tr>
+    <th height="177" scope="col">&nbsp;</th>
+    <th colspan="8" scope="col"><img src="animasyonlar/banner.gif" width="941" height="173" /></th>
+    <th scope="col" class="style27">&nbsp;</th>
+  </tr>
+  <tr>
+    <th scope="row" colspan="2" rowspan="2">
+        <asp:Label ID="Label1" runat="server"></asp:Label>
+      </th>
+    <td><a href="index.aspx" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','butonlar/anasayfa2.png',1)"><img src="butonlar/anasayfa1.png" name="Image2" width="150" height="35" border="0" id="Image2" onclick="return Image2_onclick()" /></a></td>
+    <td class="style19"><a href="kitapara.aspx" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','butonlar/kitapara2.png',1)"><img src="butonlar/kitapara1.png" name="Image3" width="150" height="35" border="0" id="Image3" /></a></td>
+    <td class="style17"><a href="kitaplar.aspx" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','butonlar/kitap2.png',1)"><img src="butonlar/kitap1.png" name="Image4" width="150" height="35" border="0" id="Image4" /></a></td>
+    <td class="style15"><a href="hakkimizda.aspx" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','butonlar/hakkımız2.png',0)"><img src="butonlar/hakkımız1.png" name="Image5" width="150" height="35" border="0" id="Image5" /></a></td>
+    <td><a href="giris.aspx" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','butonlar/giris2.png',1)"><img src="butonlar/giris1.png" name="Image6" width="150" height="35" border="0" id="Image6" onclick="return Image6_onclick()" /></a></td>
+    <td class="style6">
+        <asp:LinkButton ID="LinkButton1" runat="server">Çıkış </asp:LinkButton>
+      </td>
+    <td class="style9" colspan="2" rowspan="9">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="3" rowspan="7">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+      </td>
+    <td>&nbsp;</td>
+    <td class="style6">
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/adminsayfasi.aspx">Admin </asp:HyperLink>
+      </td>
+  </tr>
+  <tr>
+    <th scope="row">&nbsp;</th>
+    <td class="style25">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class="style6">&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">&nbsp;</th>
+    <td class="style25">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class="style6">&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">&nbsp;</th>
+    <td class="style25">&nbsp;</td>
+    <td>
+        &nbsp;</td>
+    <td>&nbsp;</td>
+    <td class="style6">&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">&nbsp;</th>
+    <td class="style25">&nbsp;</td>
+    <td>
+        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/uyeol.aspx">ÜYE OL</asp:HyperLink>
+                    <br />
+        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/iletisim.aspx">İLETİŞİM</asp:HyperLink>
+        <br />
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/kitapekle.aspx" 
+            Target="_blank">KİTAP EKLE</asp:HyperLink>
+                    </td>
+    <td>&nbsp;</td>
+    <td class="style6"><img src="resim2/Kitap_20090320164416_89_11.jpg" width="139" height="187" />&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">&nbsp;</th>
+    <td class="style25">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class="style6"><img src="resim2/kara-kitap-izle-black-book-2006-turkce-dublaj.jpg" width="144" height="177" /></td>
+  </tr>
+  <tr>
+    <th scope="row" class="style2"></th>
+    <td class="style4"></td>
+    <td class="style2">
+        <asp:RadioButton ID="RadioButton3" runat="server" Text="çok iyi" 
+            ValidationGroup="a" />
+        <br />
+        <asp:RadioButton ID="RadioButton4" runat="server" Text="iyi" 
+            ValidationGroup="a" />
+        <br />
+        <asp:RadioButton ID="RadioButton5" runat="server" Text="orta" 
+            ValidationGroup="a" />
+        <br />
+        <asp:RadioButton ID="RadioButton6" runat="server" Text="kötü" 
+            ValidationGroup="a" />
+        <br />
+        <asp:Button ID="Button1" runat="server" Text="oyla" />
+        <br />
+        <asp:Label ID="Label2" runat="server"></asp:Label>
+      </td>
+    <td class="style2">&nbsp;</td>
+    <td class="style7">&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row" class="style1"></th>
+    <td class="style26"></td>
+    <td class="style1"></td>
+    <td class="style20"></td>
+    <td class="style18"></td>
+    <td class="style16"></td>
+    <td class="style1"></td>
+    <td class="style8"></td>
+  </tr>
+</table>
+</body>
+</html>
+
+    </div>
+    </form>
+</body>
+</html>
