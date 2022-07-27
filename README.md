@@ -1,8 +1,4 @@
-# ASP.NET-VISUAL-BASIC-KUTUPHANE-SITESI
-Projenin Adı: ASP .NET ile Kütüphane Sitesi
-Projenin İçeriği:
-Web programlama dersi yıl sonu ödevi kapsamında yapılmış olunan ASP .NET ile Kütüphane Sistemi Sitesinin içeriği ve proje amacı bu bölümde belirtilmiştir. 
-“sefabookstore.com” isimli kütüphane  sitemizin genel tasarımı aşağıdaki görselde verilmiştir. 
+Project Name: Library Site with ASP .NET<br>Content of the Project:<br>The content and project purpose of the ASP .NET and Library System Site, which was made within the scope of the web programming course year-end homework, are stated in this section. <br>The general design of our library site named “sefabookstore.com” is given in the image below.
 1. WEBSİTE GENEL ÖZELLİKLERİ
 ANASAYFA:
  
