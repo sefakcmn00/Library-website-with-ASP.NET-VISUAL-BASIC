@@ -13,85 +13,79 @@ MEMBER LOGIN PROCEDURES:
 On the other hand, the code lines of the User name and password request sections required for member login procedures are given in the image above. As can be seen in the code lines given above, the required code lines have been defined for entering the values ​​to be written in the text boxes and banner images have been added for the general appearance of the site.
 
  ![image](https://user-images.githubusercontent.com/67556543/181379235-b3de96f5-77c3-44a6-9de9-db94b5d33659.png)
-![image](https://user-images.githubusercontent.com/67556543/181379371-7df4b5fb-600e-4292-8771-635eeea05ad1.png)
 
- 
+ MENUS:
+SEARCH BOOKS:
 
- 
+Search for Books tab contains content. There are 2 different search criteria on our site. These; Book Genre and Book Title
 
-MENÜLER:
-KİTAP ARA:
- 
-Kitap Ara sekmesinin içeriği bulunmaktadır. Sitemizde 2 farklı arama kriteri bulunmaktadır. Bunlar; Kitap Türü ve Kitap Adı
+![image](https://user-images.githubusercontent.com/67556543/181379521-cc0eb4d3-f849-4bd9-82d9-7a0abea8c602.png)
 
-  
+ BOOKS :
 
-Yukarıdaki resimde Kitap Ara sekmesinin kod bloğu gözükmetedir.
-Access veri tabanında bulunan ürünler tablosundan verileri çekebilmek için kullanılan sql sorguları aşağıdaki resimde verilmiştir. 
- 
-KİTAPLAR :
- 
-Yukaridaki resimde kitaplar kısmında Tür seçiniz kısmında dropdown kullanılmıştır. Eklenen kitaplar Hikâye, Tarihi Roman ve Roman türünde aramalar mevctttur. Kitap türünü eklemek için kitapekle.aspx dosyasında yeni bir tür belirlediğinizde dropdown eventine otamatik eklenecektir.
+In the picture above, dropdown is used in the Select genre section of the books section. Added books are available in the genre of Story, Historical Novel and Novel. When you specify a new type in the bookadd.aspx file to add the book type, it will automatically be added to the dropdown event.
 
- 
-Yukarındaki kod bloğunda ise dropdown liste görüntülenecek dosyaları SqlDataSource’dan aldığı satır gözükmektedir.
-KİTAP EKLE:
- 
-Yukarıda verilen resimde kitapekle.aspx sayfasında Kitap Adı, Katagori, Çıkış Tarihi, Kitap Tipi, Resim ekleme, Konu ekleme olarak 7 adet bilgi satırı istenmektedir.
-Eklenen kitaplar sql veritabanında kayıt edilmektedir.
- 
-Yukarıdaki resimde accsess veritabanı ile bağlantı kurduğu kod bloğu gösterilmiştir.
-HAKKIMIZDA:
-Web sitemizin ana menüsü üzerinde bulunan beşinci ve son sekmemiz “HAKKIMIZDA” sekmesidir. 
- 
+https://cevirsozluk.com/
+![image](https://user-images.githubusercontent.com/67556543/181379569-8458184c-3d54-4efb-9525-ff4239072fce.png)
 
-Yukarıdaki gösterilmiş olan resimde sitemiz hakkında bilgi verilmiştir.
+ADD A BOOK:
 
- 
-İLETİŞİM:
- 
-Yukarıda verilen görselde tasarımı verilen iletişim bölümünün ana içeriği; Mesaj göndermek isteyen kişinin adı soyadı, Email adresi, Adresi, Konu ve iletmek istediği mesaj alanlarından oluşmaktadır. Bu form üzerinden kullanıcı site veya restoran hakkındaki şikâyet, istek ve önerilerini bildirebilecektir. Burada istenen bilgiler ve iletilmek istenen mesaj Access veri tabanında bulunan mesaj tablosuna kaydedilecektir. Mesaj tablosunun genel özellikleri ve veri tabanı özellikleri ikinci bölümde ayrıntılı olarak verilecektir. 
-	
+On the above picture bookekle.aspx page, 7 information lines are required as Book Name, Catagory, Release Date, Book Type, Adding Picture, Adding Subject.
+Recording the added books in the sql database is being done.
+
+![image](https://user-images.githubusercontent.com/67556543/181379679-2a772f85-7ea7-4d01-8b71-a5d98eb22fbc.png)
+ABOUT US:
+Our fifth and last tab on the main menu of our website is the “ABOUT US” tab.
+
+![image](https://user-images.githubusercontent.com/67556543/181379725-1aef0b9b-4f3d-4a11-9259-1da8df7924d6.png)
+
+In the picture shown above, information about our site is given.
+CONTACT:
+
+The main content of the communication section, whose design is given in the above image; It consists of the name, surname, e-mail address, address, subject and message fields of the person who wants to send a message. Through this form, the user will be able to report complaints, requests and suggestions about the site or the restaurant. Here, the requested information and the message to be transmitted will be saved in the message table in the Access database. The general properties of the message table and the database properties will be given in detail in the second part.
+
+![image](https://user-images.githubusercontent.com/67556543/181379809-afd40ae6-7cca-4323-8539-6a46281fe439.png)
 
 
- 
+As can be seen in the command lines of the "communication.aspx" file outlined above, Validation operations are also largely included in our code blocks. After checking the values ​​entered with the Validation commands, which are widely used to make the necessary controls, they were added to the Access database.
+In general, the code snippets of the menus and tabs on our home page are like this. The second part, which will be given now, includes our tables in the Access database and their properties.
 
-Yukarıda genel hatlarıyla verilen “iletişim.aspx” dosyasının komut satırlarında görüldüğü üzere Validation işlemleri yine büyük bir oranda kod bloklarımızda yer almaktadır. Gerekli kontrollerin yapılması için bolca kullanılan Validation komutları ile girilen değerler kontrol edildikten sonra Access veri tabanına eklenmiştir. 
-Genel olarak ana sayfamızda yer alan menüler ve sekmelerin kod parçacıkları bu şekildedir. Şimdi verilecek olan ikinci bölümde Access veri tabanında bulunan tablolarımız ve özellikleri yer almaktadır. 
-OYLAMA:
- 
-Yukarıda gösterilen resimde oy kullanılması için radiobutton ve button eventleri kullanılmıştır.
-Kullanılan oy accesses veritabanına yollanarak kaydedilmektedir.
-2. ACCESS VERİ TABANI GENEL ÖZELLİKLERİ
-Yıl sonu ödevi olarak yapılan bu web sitesinde Access veri tabanı kullanılmıştır. Veritabanı, bilgileri toplamak ve düzenlemek için bir araçtır. Veritabanları kişiler, ürünler, siparişler veya başka herhangi bir şey hakkında bilgi depolar. Bu projede web sitemizde bulunan verileri kaydetmek ve listelemek amacıyla Access Veritaban programı kullanılmıştır.  Access sayesinde:
-	Veri tabanına yeni bir veri girebilirsiniz; örneğin stoka yeni bir öğe ekleyebilirsiniz
-	Veritabanındaki mevcut verileri düzenleyebilirsiniz; örneğin bir öğenin mevcut konumunu değiştirebilirsiniz.
-	Bir öğenin satılması veya atılması durumunda bilgiyi silebilirsiniz
-	Veriyi çeşitli yöntemlerle düzenleme ve görüntüleme
-	Raporlar, e-posta iletileri, intranet veya İnternet üzerinden verileri başkalarıyla paylaşma
-Yukarıda verilen özellikler göz önüne alındığında Access Veritabanı ile çalışmak hem kolay hem de oldukça kullanışlı olmuştur.
-Bu projede bulunan Access Veritabanında toplamda 3 adet tablo bulunmaktadır. Bu tablolar sırasıyla; “uyeler”, “kitap” ve “oy” şeklindedir. Aşağıdaki görselde Access Veritabanı üzerinde bulunan tabloların listesi gösterilmiştir.
- 
-KİTAPLAR TABLOSU:
-Bu tablolardan ilki sitemize üye olan kullanıcıların verilerinin tutulduğu tablo olan “Kitaplar” tablosudur. 
- 
-Kitapadi, katagori, tarih, konu, tip, resim, tur, yazaradi ve basimyili olmak üzere 8 farklı alandan oluşan tablomuzun genel görünümü yukarıdaki görselde verilmiştir. Kitaplar sekmesi üzerinden web sitesine kayıt olan kullanıcının gerekli alanlara girmiş olduğu veriler bu tablo üzerindeki 8 farklı alana otomatik olarak yerleştirilmiştir. Kitapekle.aspx, kitapara.aspx ve kitaplar.aspx bu veritabanını kullanmaktadır.
+VOTING:
+![image](https://user-images.githubusercontent.com/67556543/181379918-2c07dae3-f451-49bc-8128-b266b14b1c5f.png)
+
+Radiobutton and button events are used for voting in the picture shown above.
+The votes used are sent to the accesses database and saved.
+2. ACCESS DATABASE GENERAL FEATURES
+Access database was used on this website, which was made as a year-end homework. A database is a tool for collecting and organizing information. Databases store information about people, products, orders or anything else. In this project, Access Database program was used to save and list the data on our website. With Access:
+ You can enter a new data into the database; for example you can add a new item to the stock
+ You can edit the existing data in the database; for example, you can change the current location of an item.
+ You can delete information if an item is sold or discarded
+ Organize and view data in various ways
+ Share data with others via reports, email messages, intranet or the Internet
+Considering the features given above, working with Access Database has been both easy and very useful.
+There are 3 tables in total in the Access Database in this project. These tables are respectively; “members”, “book” and “vote”. The following image shows the list of tables on the Access Database.
+
+BOOKS TABLE:
+The first of these tables is the “Books” table, which is the table where the data of users who are members of our site are kept.
+
+The general view of our table, which consists of 8 different fields: book, category, date, subject, type, picture, tour, author's name and year of publication, is given in the image above. The data entered in the required fields by the user who registered on the website via the Books tab is automatically placed in 8 different fields on this table. Kitapekle.aspx, Kitapara.aspx and Kitap.aspx use this database.
+
+![image](https://user-images.githubusercontent.com/67556543/181379949-8ac1e72b-b053-4bc4-be4a-c99cf8393c61.png)
+VOTES TABLE:
+
+![image](https://user-images.githubusercontent.com/67556543/181380076-bc327701-75c5-4486-9eb3-67381d9ab712.png)
+
+The above-mentioned on-site voting has been made and the site scoring system has been made by keeping them in the accesses database.
+MEMBERS TABLE:
+![image](https://user-images.githubusercontent.com/67556543/181380167-21289504-88ba-4537-ad31-b97b04a0e3d8.png)
 
 
- 
-OYLAR TABLOSU:
- 
-Yukarıda gösterilen site içi oylama yapılmış olup bunların accesses veritabanında tutularak site puantaj sistemi yapılmıştır.
-ÜYELER TABLOSU:
-Yukarıdaki görselde ise kayıt ol menüsünün Veritabanı ile olan bağlantısı kod parçacıkları halinde gösterilmiştir. 
- 
-Access veritabanında bulunan bir diğer tablo ise üyelerin tutulduğu tablodur. Bu tablonun içeriğinde ise 8 adet alan bulunmaktadır. 
-Ad, soyad, kul_adi, sifre, eposta, gizlisoru, gizlicevap ve yetki olmak üzere 8 adet alandan oluşan bu tablonun ekran görüntüsü yukarıda verilmiştir. Burada web sitesinde kayıt olan kullanıcılarn saklı tutulduğu kısımdır.Üyekle.aspx ve üyesil.aspx sayfaları bu tablodan beslenmektedir.
-ÜyeOl.aspx Menüsünün Kod Bloğu:
- 
+Another table in the Access database is the table where the members are kept. There are 8 fields in the content of this table.
+The screenshot of this table, which consists of 8 fields: name, surname, username, password, e-mail, secret question, secret answer and authorization, is given above. Here is the part where registered users of the website are kept confidential. Member.aspx and member.aspx pages are fed from this table.
+CODE BLOCK OF MEMBER.ASPX PAGE:
+![image](https://user-images.githubusercontent.com/67556543/181380279-08ffb62e-208a-448b-9879-4baee4ee6c26.png)
 
-ÜYESİL.ASPX SAYFASININ KOD BLOĞU:
- 
-Yukarıdaki görselde ise iletişim menüsünün Veritabanı ile olan bağlantısı kod parçacıkları halinde gösterilmiştir. 
-Genel itibariyle asp .net ile oluşturulan projenin genel hatları bu şekildedir. Projede hazır css template kullanılmıştır. Projenin yapım aşamasında kullanılan validation, sql veritabanı bağlantısı, sql veritabanı sorgu işlemleri, web site tasarımı gibi birçok web programlama dersi konuları detaylı olarak incelenmiş ve üzerlerinde çalışılmıştır. Derste alınan teorik bilgi bu projede uygulamaya dökülmüş ve asp .net ile web programlama konusu temel düzeyde anlaılmıştır. 
+In the image above, the connection of the communication menu with the Database is shown as code snippets.
+In general, the general lines of the project created with asp .net are as follows. Ready css template was used in the project. Many web programming lessons such as validation, sql database connection, sql database query operations, web site design used in the construction phase of the project have been studied in detail and studied. The theoretical knowledge taken in the course has been put into practice in this project and the subject of web programming with asp .net is explained at a basic level.
+
 
