@@ -1,40 +1,22 @@
 Project Name: Library Site with ASP .NET<br>Content of the Project:<br>The content and project purpose of the ASP .NET and Library System Site, which was made within the scope of the web programming course year-end homework, are stated in this section. <br>The general design of our library site named “sefabookstore.com” is given in the image below.
-1. WEBSİTE GENEL ÖZELLİKLERİ
-ANASAYFA:
- 
-Şekil 1: sefabookstore.com site anasayfası
-Yukarıda verilen resim üzerinde de görüleceği gibi site ana sayfasında bir üst banner, 5 adet menü, anasayfa ekranı, kitap ara, kitaplar, hakkımızda ve giriş menüsü bulunmaktadır. Bu sayfanın tasarımı yazılım dosyaları arasında index.aspx dosyası içerisinde yapılmıştır. 
- 
+1. WEBSITE GENERAL FEATURES
+HOMEPAGE:
 
+Figure 1: sefabookstore.com site homepage
+As can be seen on the picture above, a top banner, 5 menus, homepage screen, search for books, books, about us and There is an input menu. The design of this page is made in the index.aspx file among the software files.
 
-Yukarıda verilen kod satırında ana sayfa masterpage ayarlamaları, banner ve ana sayfada bulunan resimlerin linkleri verilmiştir. 
-ÜYE GİRİŞ İŞLEMLERİ:
- 
-Yukarıda verilen görselde ise Üye giriş işlemleri için gerekli olan Kullanıcı adı ve şifre isteme bölümlerinin kod satırları verilmiştir. Yukarıda verilen kod satırlarında da görüldüğü üzere metin kutuları içerisine yazılacak olan değerler ile giriş yapılabilmesi için gerekli kod satırları tanımlanmış ve sitenin genel görünümü için banner resimleri eklenmiştir. 
- 
- 
-Örnek olarak kullanıcı doğru giriş yaptığında gözüken ekranın görüntüsü yukarıda verilmiştir.
- 
+![image](https://user-images.githubusercontent.com/67556543/181379115-b166ccb4-290e-4ec6-b50e-c434bb0d263d.png)
 
  
- 
-Yukarıdaki kod satırlarında yeni üyelik işlemlerin gerçekleştirilmesi için gerekli olan komutlar yazıldıktan sonra eğer kullanıcı yeni bir üyelik açmak isterse kayıt ol sayfasına yönlendirmek amacıyla “Üye Ol” bölümü eklenmiştir.  Aşağıdaki kod bloğu “üyeol.aspx” aittir.Resimde kod bloğu gözükmediğinden kodları word dosyasında kod bloğu olarak gösterilmiştir.
-Üye Ol Kod Bloğu:
-1.	
-240.	 
-Üye Ol sekmesinin accsess veri tabanı ile bağlantılı olduğu kod bloğu aşğıdaki resimde gösterilmiştir.
+MEMBER LOGIN PROCEDURES:
+
+On the other hand, the code lines of the User name and password request sections required for member login procedures are given in the image above. As can be seen in the code lines given above, the required code lines have been defined for entering the values ​​to be written in the text boxes and banner images have been added for the general appearance of the site.
+
+ ![image](https://user-images.githubusercontent.com/67556543/181379235-b3de96f5-77c3-44a6-9de9-db94b5d33659.png)
+![image](https://user-images.githubusercontent.com/67556543/181379371-7df4b5fb-600e-4292-8771-635eeea05ad1.png)
+
  
 
-ÜYE SİL
- 
-Yukarıdaki bölümde ise üyesil.aspx yani admin sayfasında site içindeki üyelerin bilgilerini güncelleme, silme ve ekleme bölümü bulunmaktadır.
- 
-Yukarıdaki bölümde ise “üyesil.aspx” sayfasının kod satırları bulunmaktadır.
-ADMİN SAYFASI
- 
-
-Yukaridaki resimde admin sayfasının yetkileri gösterilmektedir. İki sayfaya yönlendirilmektedir.1. sayfa “kitapekle.aspx” ve son sayfa olarak “üyesil.aspx” sayfasına yönledirme yapmaktadır.
-Admin sayfasının kod bloğu ise aşağıda resimde verilmeştir.
  
 
 MENÜLER:
