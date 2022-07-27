@@ -51,6 +51,8 @@ As can be seen in the command lines of the "communication.aspx" file outlined ab
 In general, the code snippets of the menus and tabs on our home page are like this. The second part, which will be given now, includes our tables in the Access database and their properties.
 
 VOTING:
+
+
 ![image](https://user-images.githubusercontent.com/67556543/181379918-2c07dae3-f451-49bc-8128-b266b14b1c5f.png)
 
 Radiobutton and button events are used for voting in the picture shown above.
