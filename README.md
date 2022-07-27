@@ -25,7 +25,7 @@ Search for Books tab contains content. There are 2 different search criteria on 
 
 In the picture above, dropdown is used in the Select genre section of the books section. Added books are available in the genre of Story, Historical Novel and Novel. When you specify a new type in the bookadd.aspx file to add the book type, it will automatically be added to the dropdown event.
 
-https://cevirsozluk.com/
+
 ![image](https://user-images.githubusercontent.com/67556543/181379569-8458184c-3d54-4efb-9525-ff4239072fce.png)
 
 ADD A BOOK:
